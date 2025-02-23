@@ -1,0 +1,19 @@
+crewai
+langchain
+openai
+tiktoken
+# Environment Variables
+python-dotenv
+
+# Data Handling
+pandas
+numpy
+
+# Web Scraping (if needed)
+requests
+beautifulsoup4
+
+# Local AI Agents (Optional)
+llama-index
+fastapi
+uvicorn
