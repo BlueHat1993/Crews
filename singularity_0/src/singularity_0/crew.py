@@ -22,7 +22,7 @@ class Singularity0():
 		return Agent(
 			config=self.agents_config['researcher'],
 			verbose=True
-		)
+		)  
 
 	@agent
 	def reporting_analyst(self) -> Agent:
