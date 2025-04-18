@@ -16,11 +16,11 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 def run():
     """
     Run the crew.
-    """
-    topic = input("Please enter your topic: ")
+    """ 
+    request = input("Please enter your request: ")
 
     inputs = {
-        'topic': topic,
+        'request': request,
         'current_year': str(datetime.now().year)
     }
     
